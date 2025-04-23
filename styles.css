@@ -3,9 +3,12 @@
   height: 120px;
   border-radius:50%;
   object-fit: cover;
+  object-position: top;
+
 }
 .Avatar-container{
     margin-bottom: 20px;
+    margin-top: 10px;
 
 }
 .card {
