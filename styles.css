@@ -1,28 +1,35 @@
-.Avatar{
-  width: 120px;
-  height: 120px;
-  border-radius:50%;
-  object-fit: cover;
-  object-position: top;
-
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
 }
-.Avatar-container{
+
+.Avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.Avatar-container {
     margin-bottom: 20px;
     margin-top: 10px;
-
 }
+
 .card {
-    max-width: 400px ;
+    max-width: 400px;
     margin: 40px auto;
     background-color: lightskyblue;
     padding: 20px;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(red, green, blue);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .description {
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
 
 .contact {
@@ -37,16 +44,17 @@
     font-weight: bold;
 }
 
-.link-card{
+.link-card {
     display: inline-block;
     margin: 15px;
     padding: 10px 20px;
     background: lightgray;
     border-radius: 8px;
     text-decoration: none;
+    cursor: pointer;
 }
 
-.card ul {
-    text-align: left;
-    margin-bottom: 10px;
+.link-card:hover {
+    background-color: #d3d3d3;
 }
+

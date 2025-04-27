@@ -4,47 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-    <script src=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="script.js" defer></script>
     <title>Mi CV</title>
 </head>
 <body>
     <section>
-        <div style="max-width: 400px;
-        margin: 40px auto;
-        background-color: lightskyblue;
-        padding: 20px;
-        border-radius: 15px;
-        text-align: center;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    
-    <div class="Avatar-container"> <!-- ✅ aquí corregido -->
-        <img 
-            src="./Assets/ChatGPT Image 23 abr 2025, 12_47_48 p.m..png" 
-            alt="Avatar"
-            id="Avatarpreview"
-            class="Avatar"
-        />
-    </div>
+        <div class="card">
+            <div class="Avatar-container">
+                <img 
+                    src="./Assets/ChatGPT Image 23 abr 2025, 12_47_48 p.m..png" 
+                    alt="Avatar"
+                    id="Avatarpreview"
+                    class="Avatar"
+                />
+            </div>
 
             <div class="description">
                 <h2>Descripción de mi CV</h2>
-                <p> Desarrollador de software apasionado por la tecnologia 
-                </p>
-
+                <p>Desarrollador de software apasionado por la tecnología.</p>
             </div>
             <div class="contact"> 
-
-                <P>📞319 4146005</P>
-
+                <p>📞 319 4146005</p>
             </div>
             <div class="links">
-                <a href="./education.html" class="link-card">Educacion</a>
+                <a href="./education.html" class="link-card">Educación</a>
                 <a href="./experience.html" class="link-card">Experiencia</a>
-
             </div>
             <button id="downloadBtn" class="link-card" style="font-weight: bold;">Descargar CV</button>
         </div>
     </section>
 </body>
 </html>
+
